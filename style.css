@@ -128,3 +128,30 @@ nav a:hover::after {
   background: #05050a;
   color: #777;
 }
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.section {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  padding: 40px 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 280px;
+}
+
